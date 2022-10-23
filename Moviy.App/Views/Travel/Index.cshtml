@@ -1,0 +1,78 @@
+﻿@*@using Moviy.App.Extensions*@
+@model IEnumerable<Moviy.App.ViewModels.TravelViewModel>
+
+
+@{
+    ViewData["Title"] = "Viagens";
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+<vc:Summary></vc:Summary>
+@*<p supress-by-claim-name="Bus" supress-by-claim-value="Adicionar">*@
+<a class="btn btn-info" asp-action="OpenTravel">Abrir Viagem</a>
+
+@*</p>*@
+<br />
+<br />
+<table class="table table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Driver.Name) Motorista
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bus.BusNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LineRoute.LinePrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LineRoute.StartPointId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LineRoute.EndPointId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartedAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FinishedAt)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Driver.Name) 
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem =>item.Bus.BusNumber)
+                </td>
+                 <td>
+                    @Html.DisplayFor(modelItem =>item.LineRoute.LinePrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LineRoute.StartPoint.Street), @Html.DisplayFor(modelItem =>item.LineRoute.StartPoint.Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem =>item.LineRoute.EndPoint.Street), @Html.DisplayFor(modelItem =>item.LineRoute.EndPoint.Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem =>item.StartedAt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem =>item.FinishedAt)
+                </td>
+                <td class="text-right">
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id"><spam class="fa fa-search"></spam></a>
+                    @*<a class="btn btn-warning" supress-by-claim-name="Fornecedor" supress-by-claim-value="Editar" asp-action="Edit" asp-route-id="@item.Id"><spam class="fa fa-pencil-alt"></spam></a>*@
+                    <a class="btn btn-danger" asp-action="CloseTravel" asp-route-id="@item.Id">Finalizar Viagem</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

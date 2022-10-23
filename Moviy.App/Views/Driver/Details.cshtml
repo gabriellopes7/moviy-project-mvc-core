@@ -1,0 +1,50 @@
+﻿@*@using DevIO.App.Extensions*@
+@model Moviy.App.ViewModels.DriverViewModel
+
+@{
+    ViewData["Title"] = "Detalhes Motorista";
+}
+
+<h1>@ViewData["Title"]</h1>
+<br />
+<h3>@Model.Name</h3>
+<hr />
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Image)
+        </dt>
+        <dd class="col-sm-10">
+            <img src="~/images/@Model.Image" alt="@Model.Image" style="width:120px; height:120px"/>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DriverLicense)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DriverLicense)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BirthDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BirthDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IsActive)
+        </dt>
+        <dd class="col-sm-10">
+             @Html.DisplayFor(model => model.IsActive)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-dark" asp-action="Update" asp-route-id="@Model.Id">Editar</a>
+    <a class="btn btn-info" asp-action="Index">Voltar</a>
+</div>
+

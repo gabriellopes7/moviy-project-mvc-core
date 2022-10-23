@@ -1,0 +1,31 @@
+﻿@model Moviy.App.ViewModels.TravelViewModel
+
+<div style="padding-top: 20px">
+    <div>
+        <hr />
+        <h4>Detalhes da Linha</h4>
+    </div>
+    <table class="table table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Start Point</th>
+                <th>End Point</th>
+            </tr>
+        </thead>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(model=>model.LineRoute.StartPoint.Street),
+                @Html.DisplayFor(model=>model.LineRoute.StartPoint.Number),
+                @Html.DisplayFor(model=>model.LineRoute.StartPoint.District),
+                @Html.DisplayFor(model=>model.LineRoute.StartPoint.City)
+            </td>
+             <td>
+                @Html.DisplayFor(model=>model.LineRoute.EndPoint.Street),
+                @Html.DisplayFor(model=>model.LineRoute.EndPoint.Number),
+                @Html.DisplayFor(model=>model.LineRoute.EndPoint.District),
+                @Html.DisplayFor(model=>model.LineRoute.EndPoint.City)
+            </td>
+        </tr>
+    </table>
+</div>

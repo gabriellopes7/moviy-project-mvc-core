@@ -1,0 +1,52 @@
+﻿    @model Moviy.App.ViewModels.LineRouteViewModel
+
+@{
+    ViewData["Title"] = "Nova Linha";
+}
+
+<div id="PlaceHolderHere"></div>
+
+<h3 style="padding-top: 50px">@ViewData["Title"] </h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        <form enctype="multipart/form-data" asp-action="Create">
+
+            <div class="form-group">
+                <label asp-for="Line" class="control-label"></label>
+                <input asp-for="Line" class="form-control" />
+                <span asp-validation-for="Line" class="text-danger"></span>
+            </div>
+            <br />
+           <div class="form-group">
+               <label asp-for="StartPointId" class="control-label"></label>
+               <br />
+                @Html.DropDownListFor(m=>m.StartPointId,new SelectList(Model.LocalsList,"Value","Text"))
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="EndPointId" class="control-label"></label>
+                <br />
+                @Html.DropDownListFor(m=>m.EndPointId,new SelectList(Model.LocalsList,"Value","Text"))
+            </div>
+            <br />
+             <div class="form-group">
+                <label asp-for="LinePrice" class="control-label"></label><br />
+                <input asp-for="LinePrice" class="form-control" />
+                <span asp-validation-for="LinePrice" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                </label>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Adicionar" class="btn btn-primary" />
+                <a class="btn btn-info" asp-action="Index">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>

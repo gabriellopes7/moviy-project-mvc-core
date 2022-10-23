@@ -1,0 +1,41 @@
+﻿@model Moviy.App.ViewModels.TravelViewModel
+
+<div style="padding-top: 20px">
+    <div>
+        <hr />
+        <h4>Detalhes do veículo</h4>
+    </div>
+    <table class="table table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model =>model.Bus.LicensePlate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model =>model.Bus.BusColor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model =>model.Bus.BusSize)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model =>model.Bus.IsActive)
+                </th>
+            </tr>
+        </thead>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(model=>model.Bus.LicensePlate)
+            </td>
+             <td>
+                @Html.DisplayFor(model=>model.Bus.BusColor)
+            </td>
+             <td>
+                @Html.DisplayFor(model=>model.Bus.BusSize)
+            </td>
+             <td>
+                @Html.DisplayFor(model=>model.Bus.IsActive)
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,422 @@
+﻿++Solution 'MoviyProject' ‎(3 of 3 projects)
+i:{00000000-0000-0000-0000-000000000000}:MoviyProject.sln
+++Moviy.Business
+i:{00000000-0000-0000-0000-000000000000}:Moviy.Business
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\moviy.business.csproj
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\moviy.business.csproj
+++Dependencies
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:>517
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:>516
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:>770
+++Interfaces
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\interfaces\
+++IBusRepository.cs
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\interfaces\ibusrepository.cs
+++IDriverRepository.cs
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\interfaces\idriverrepository.cs
+++IRepository.cs
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\interfaces\irepository.cs
+++IRouteRepository.cs
+++ITravelRepository.cs
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\interfaces\itravelrepository.cs
+++Models
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\models\
+++Bus.cs
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\models\bus.cs
+++BusType.cs
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\models\bustype.cs
+++Driver.cs
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\models\driver.cs
+++Entity.cs
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\models\entity.cs
+++LineRoute.cs
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\models\lineroute.cs
+++Local.cs
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\models\local.cs
+++Travel.cs
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\models\travel.cs
+++Notifications
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\notifications\
+++Services
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\services\
+++Validations
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\validations\
+++Analyzers
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:analyzers
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:analyzers
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:analyzers
+++Frameworks
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:frameworks
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:frameworks
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:frameworks
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\microsoft.netcore.app
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\microsoft.netcore.app
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\microsoft.netcore.app
+++Moviy.Data
+i:{00000000-0000-0000-0000-000000000000}:Moviy.Data
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\moviy.data.csproj
+++Context
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\context\
+++MoviyDbContext.cs
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\context\moviydbcontext.cs
+++Mappings
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\mappings\
+++BusMapping.cs
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\mappings\busmapping.cs
+++DriverMapping.cs
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\mappings\drivermapping.cs
+++RouteMapping.cs
+++TravelMapping.cs
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\mappings\travelmapping.cs
+++Migrations
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\migrations\
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\data\migrations\
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\migrations\
+++20220828162828_InitialMigrationEntitiesTables.cs
+++20220829152904_AddImageToDriverModel.cs
+++MoviyDbContextModelSnapshot.cs
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\migrations\moviydbcontextmodelsnapshot.cs
+++Repository
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\repository\
+++BusRepository.cs
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\repository\busrepository.cs
+++DriverRepository.cs
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\repository\driverrepository.cs
+++Repository.cs
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\repository\repository.cs
+++RouteRepository.cs
+++TravelRepository.cs
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\repository\travelrepository.cs
+++Packages
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:packages
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:packages
+++Projects
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:projects
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:projects
+++20220828162828_InitialMigrationEntitiesTables.Designer.cs
+++20220829152904_AddImageToDriverModel.Designer.cs
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:c:\users\gabri\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.8\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\users\gabri\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.8\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:c:\users\gabri\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.EntityFrameworkCore (6.0.8)
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:>784
+++Microsoft.EntityFrameworkCore.Relational (6.0.8)
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:>786
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.8)
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:>785
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:>799
+++Moviy.App
+i:{00000000-0000-0000-0000-000000000000}:Moviy.App
+++Connected Services 
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:>771
+++Microsoft.AspNetCore.Analyzers
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\microsoft.aspnetcore.app
+++AutoMapper (11.0.1)
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:>827
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:>828
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.8)
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:>800
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.8)
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:>801
+++Microsoft.AspNetCore.Identity.UI (6.0.8)
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:>803
+++Microsoft.EntityFrameworkCore.Tools (6.0.8)
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:>802
+++Properties
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\properties\
+++launchSettings.json
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\properties\launchsettings.json
+++serviceDependencies.json
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\properties\servicedependencies.json
+++serviceDependencies.local.json
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\properties\servicedependencies.local.json
+++wwwroot
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\
+++css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\css\
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\js\
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\
+++favicon.ico
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\favicon.ico
+++Areas
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\areas\
+++Automapper
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\automapper\
+++AutomapperConfig.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\automapper\automapperconfig.cs
+++Controllers
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\controllers\
+++HomeController.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\controllers\homecontroller.cs
+++Data
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\data\
+++ViewModels
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\viewmodels\
+++BusViewModel.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\viewmodels\busviewmodel.cs
+++DriverViewModel.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\viewmodels\driverviewmodel.cs
+++ErrorViewModel.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\viewmodels\errorviewmodel.cs
+++LocalViewModel.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\viewmodels\localviewmodel.cs
+++RouteViewModel.cs
+++TravelViewModel.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\viewmodels\travelviewmodel.cs
+++Views
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\views\
+++Home
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\views\home\
+++Shared
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\views\shared\
+++_ViewImports.cshtml
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\views\_viewstart.cshtml
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\areas\identity\pages\_viewstart.cshtml
+++appsettings.Development.json
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\appsettings.development.json
+++appsettings.json
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\appsettings.json
+++Program.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\program.cs
+++SQL Server Express LocalDB (Local) (ConnectionStrings:DefaultConnection)
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:>826
+++site.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\css\site.css
+++site.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\js\site.js
+++bootstrap
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\
+++jquery
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery\
+++jquery-validation
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery-validation-unobtrusive\
+++Identity
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\areas\identity\
+++ApplicationDbContext.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\data\applicationdbcontext.cs
+++Index.cshtml
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\views\home\index.cshtml
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\views\travel\index.cshtml
+++Privacy.cshtml
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\views\home\privacy.cshtml
+++_Layout.cshtml
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\views\shared\_layout.cshtml
+++_Layout.cshtml.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\views\shared\_layout.cshtml.css
+++_LoginPartial.cshtml
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\views\shared\_loginpartial.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\views\shared\error.cshtml
+++dist
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery\dist\
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery\license.txt
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.validate.unobtrusive.min.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++Pages
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\areas\identity\pages\
+++00000000000000_CreateIdentitySchema.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\migrations\applicationdbcontextmodelsnapshot.cs
+++jquery.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery\dist\jquery.js
+++jquery.min.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery\dist\jquery.min.js
+++jquery.min.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery\dist\jquery.min.map
+++additional-methods.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++additional-methods.min.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.min.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++00000000000000_CreateIdentitySchema.Designer.cs
+++bootstrap.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.min.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap.rtl.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap.rtl.min.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-grid.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.min.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-grid.rtl.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-grid.rtl.min.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-reboot.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.min.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-reboot.rtl.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-reboot.rtl.min.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap-utilities.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.min.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap-utilities.rtl.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap-utilities.rtl.min.css.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.bundle.js.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.bundle.min.js.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.esm.js.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.esm.min.js.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++bootstrap.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++bootstrap.js.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++bootstrap.min.js.map
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++ILineRouteRepository.cs
+i:{b53bfdd6-d862-490e-9b5d-76213fb13079}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.business\interfaces\ilinerouterepository.cs
+++LineRouteMapping.cs
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\mappings\lineroutemapping.cs
+++LineRouteRepository.cs
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\repository\linerouterepository.cs
+++20220830193957_UpdatingRouteNameEntityToLineRoutes.cs
+++20220830193957_UpdatingRouteNameEntityToLineRoutes.Designer.cs
+++20220830194355_InitialMoviyDbContext.cs
+++20220830194355_InitialMoviyDbContext.Designer.cs
+++20220830194451_InitialMoviyDbContext.cs
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\migrations\20220830194451_initialmoviydbcontext.cs
+++20220830194451_InitialMoviyDbContext.Designer.cs
+i:{01bc1d14-cb53-4f11-809c-dfa99e1e9687}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.data\migrations\20220830194451_initialmoviydbcontext.designer.cs
+++20220830194648_InitialIdentity.cs
+++20220830194648_InitialIdentity.Designer.cs
+++20220830194704_InitialIdentity.cs
+++20220830194704_InitialIdentity.Designer.cs
+++20220830194744_InitialIdentity.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\migrations\20220830194744_initialidentity.cs
+++20220830194744_InitialIdentity.Designer.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\migrations\20220830194744_initialidentity.designer.cs
+++LineRouteViewModel.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\viewmodels\linerouteviewmodel.cs
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.8)
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:>878
+++Swashbuckle.AspNetCore (6.3.0)
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:>879
+++Microsoft.CodeAnalysis.Analyzers
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\users\gabri\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++MessagePackAnalyzer
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\users\gabri\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:c:\users\gabri\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Secrets.json (Local)
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:>1331
+++Secrets.json (Local) dependency is detected
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:>1332
+++BusController.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\controllers\buscontroller.cs
+++DriverController.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\controllers\drivercontroller.cs
+++RouteController.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\controllers\routecontroller.cs
+++TravelController.cs
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\controllers\travelcontroller.cs
+++NewFolder
+++Travel
+i:{7d2e8773-01cf-4d17-8d5c-712c3a416439}:d:\documentos\cursos\.net developer\dominando o asp.net mvc core\moviyproject\moviy.app\views\travel\

@@ -1,0 +1,65 @@
+﻿@*@using Moviy.App.Extensions*@
+@model IEnumerable<Moviy.App.ViewModels.LineRouteViewModel>
+
+
+@{
+    ViewData["Title"] = "Linhas";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@*<p supress-by-claim-name="Bus" supress-by-claim-value="Adicionar">*@
+    <a class="btn btn-primary" asp-action="Create">Nova Linha</a>
+    <a class="btn btn-success" asp-action="Create" asp-controller="Local">
+        Novo Ponto
+    </a>
+    <a class="btn btn-info" style="float:right" asp-action="Index" asp-controller="Local">
+        Lista de Pontos
+    </a>
+@*</p>*@
+<br />
+<br />
+<table class="table table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Line)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LinePrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartPointId)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.EndPointId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr> 
+                <td>
+                    @Html.DisplayFor(modelItem => item.Line)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LinePrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartPoint.Street), @Html.DisplayFor(modelItem =>item.StartPoint.Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem =>item.EndPoint.Street), @Html.DisplayFor(modelItem =>item.EndPoint.Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem =>item.IsActive)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

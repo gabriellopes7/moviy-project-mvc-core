@@ -1,0 +1,58 @@
+﻿@*@using Moviy.App.Extensions*@
+@model IEnumerable<Moviy.App.ViewModels.BusViewModel>
+
+
+@{
+    ViewData["Title"] = "Veículos";
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr/>
+@*<p supress-by-claim-name="Bus" supress-by-claim-value="Adicionar">*@
+<a class="btn btn-info" asp-action="Create">Novo Veículo</a>
+@*</p>*@
+<br />
+<br />
+<table class="table table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BusNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LicensePlate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BusColor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BusSize)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BusNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LicensePlate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BusColor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem =>item.BusSize)
+                </td>
+                <td class="text-right">
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id"><spam class="fa fa-search"></spam></a>
+                    <a class="btn btn-warning" supress-by-claim-name="Fornecedor" supress-by-claim-value="Editar" asp-action="Update" asp-route-id="@item.Id"><spam class="fa fa-pencil-alt"></spam></a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id" value="Deletar"><spam class="fa fa-trash"></spam></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

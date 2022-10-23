@@ -1,0 +1,12 @@
+D:\Documentos\Cursos\.Net Developer\Dominando o ASP.NET MVC Core\MoviyProject\Moviy.Business\bin\Debug\net6.0\Moviy.Business.deps.json
+D:\Documentos\Cursos\.Net Developer\Dominando o ASP.NET MVC Core\MoviyProject\Moviy.Business\bin\Debug\net6.0\Moviy.Business.dll
+D:\Documentos\Cursos\.Net Developer\Dominando o ASP.NET MVC Core\MoviyProject\Moviy.Business\bin\Debug\net6.0\Moviy.Business.pdb
+D:\Documentos\Cursos\.Net Developer\Dominando o ASP.NET MVC Core\MoviyProject\Moviy.Business\obj\Debug\net6.0\Moviy.Business.csproj.AssemblyReference.cache
+D:\Documentos\Cursos\.Net Developer\Dominando o ASP.NET MVC Core\MoviyProject\Moviy.Business\obj\Debug\net6.0\Moviy.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Cursos\.Net Developer\Dominando o ASP.NET MVC Core\MoviyProject\Moviy.Business\obj\Debug\net6.0\Moviy.Business.AssemblyInfoInputs.cache
+D:\Documentos\Cursos\.Net Developer\Dominando o ASP.NET MVC Core\MoviyProject\Moviy.Business\obj\Debug\net6.0\Moviy.Business.AssemblyInfo.cs
+D:\Documentos\Cursos\.Net Developer\Dominando o ASP.NET MVC Core\MoviyProject\Moviy.Business\obj\Debug\net6.0\Moviy.Business.csproj.CoreCompileInputs.cache
+D:\Documentos\Cursos\.Net Developer\Dominando o ASP.NET MVC Core\MoviyProject\Moviy.Business\obj\Debug\net6.0\Moviy.Business.dll
+D:\Documentos\Cursos\.Net Developer\Dominando o ASP.NET MVC Core\MoviyProject\Moviy.Business\obj\Debug\net6.0\refint\Moviy.Business.dll
+D:\Documentos\Cursos\.Net Developer\Dominando o ASP.NET MVC Core\MoviyProject\Moviy.Business\obj\Debug\net6.0\Moviy.Business.pdb
+D:\Documentos\Cursos\.Net Developer\Dominando o ASP.NET MVC Core\MoviyProject\Moviy.Business\obj\Debug\net6.0\ref\Moviy.Business.dll

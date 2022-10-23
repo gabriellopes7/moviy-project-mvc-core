@@ -1,0 +1,31 @@
+﻿@model Moviy.App.ViewModels.TravelViewModel
+
+@{
+    ViewData["Title"] = "Open Travel";
+}
+
+<h3 style="padding-top: 50px">@ViewData["Title"] </h3>
+<vc:Summary></vc:Summary>
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        @using(Html.BeginForm("open-travel","travel",FormMethod.Post))
+        {
+            <div class="form-group">
+                @Html.DropDownListFor(m=>m.DriverId,new SelectList(Model.DriverList,"Value","Text"))
+            </div>
+            <br />
+            <div class="form-group">
+                @Html.DropDownListFor(m=>m.BusId,new SelectList(Model.BusList,"Value","Text"))
+            </div>
+            <br />
+            <div class="form-group">
+                @Html.DropDownListFor(m=>m.LineRouteId,new SelectList(Model.LineRouteList,"Value","Text"))
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a class="btn btn-info" asp-action="Index">Voltar</a>
+            </div>
+        }
+    </div>
+</div>

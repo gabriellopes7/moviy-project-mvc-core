@@ -1,0 +1,78 @@
+﻿@model Moviy.App.ViewModels.DriverViewModel
+
+@{
+    ViewData["Title"] = "Editar Motorista";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<hr />
+
+<form enctype="multipart/form-data" asp-action="Update">
+
+    <input type="hidden" asp-for="Id" />
+    <vc:Summary></vc:Summary>
+    <div class="form-row">
+        <label>Foto Atual</label>
+        <div class="form-group col-md-6">
+
+            
+            <img src="~/images/@Model.Image" alt="@Model.Image" style="width:120px; height:120px"/>
+
+        </div>
+        <br />
+        <div class="form-group col-md-6">
+            <label>Carregar nova foto</label>
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="ImageUpload" asp-for="ImageUpload">
+                <label data-browse="Search" style="width: 400px" class="custom-file-label" for="ImageUpload"></label>
+                <label style="display: none" id="img_nome"></label>
+            </div>
+        </div>
+
+
+        <div class="form-group col-md-6">
+
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group col-md-6">
+
+            <label asp-for="DriverLicense"></label>
+            <input asp-for="DriverLicense" class="form-control" />
+            <span asp-validation-for="DriverLicense" class="text-danger"></span>
+
+            <label asp-for="Document"></label>
+            <input asp-for="Document" class="form-control" />
+            <span asp-validation-for="Document" class="text-danger"></span>
+
+            <label asp-for="BirthDate"></label>
+            <input asp-for="BirthDate" class="form-control" />
+            <span asp-validation-for="BirthDate" class="text-danger"></span>
+            <div>
+                &nbsp;
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <input type="submit" value="Salvar" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts{
+     <script>
+        $("#ImageUpload").change(function () {
+            $("#img_nome").text(this.files[0].name);
+            $("#img_nome")[0].style.display = 'block';
+        });
+    </script>
+}

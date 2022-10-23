@@ -1,0 +1,136 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Moviy.App
+build_property.RootNamespace = Moviy.App
+build_property.ProjectDir = D:\Documentos\Cursos\.Net Developer\Dominando o ASP.NET MVC Core\MoviyProject\Moviy.App\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Documentos\Cursos\.Net Developer\Dominando o ASP.NET MVC Core\MoviyProject\Moviy.App
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Bus/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Bus/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Bus/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Bus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Bus/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Driver/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Driver/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Driver/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Driver/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Driver/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/LineRoute/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGluZVJvdXRlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/LineRoute/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGluZVJvdXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Local/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Local/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Shared/Components/Summary/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3VtbWFyeVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Travel/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Travel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Travel/OpenTravel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsXE9wZW5UcmF2ZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Travel/_BusDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsXF9CdXNEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Travel/_DriverDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsXF9Ecml2ZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Travel/_LineRouteDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsXF9MaW5lUm91dGVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Cursos/.Net Developer/Dominando o ASP.NET MVC Core/MoviyProject/Moviy.App/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-24mjxjl8il

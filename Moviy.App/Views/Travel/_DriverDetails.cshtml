@@ -1,0 +1,41 @@
+﻿@model Moviy.App.ViewModels.TravelViewModel
+
+<div style="padding-top: 20px">
+    <div>
+        <hr />
+        <h4>Detalhes do Motorista</h4>
+    </div>
+    <table class="table table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model =>model.Driver.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model =>model.Driver.DriverLicense)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model =>model.Driver.Document)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model =>model.Driver.IsActive)
+                </th>
+            </tr>
+        </thead>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(model=>model.Driver.Name)
+            </td>
+             <td>
+                @Html.DisplayFor(model=>model.Driver.DriverLicense)
+            </td>
+             <td>
+                @Html.DisplayFor(model=>model.Driver.Document)
+            </td>
+             <td>
+                @Html.DisplayFor(model=>model.Driver.IsActive)
+            </td>
+        </tr>
+    </table>
+</div>

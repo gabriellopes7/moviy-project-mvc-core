@@ -1,0 +1,45 @@
+﻿@*@using DevIO.App.Extensions*@
+@model Moviy.App.ViewModels.TravelViewModel
+
+@{
+    ViewData["Title"] = "Detalhes Viagem";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LineRoute.LinePrice)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LineRoute.LinePrice)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.StartedAt)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.StartedAt)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FinishedAt)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FinishedAt)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-danger" asp-action="CloseTravel" asp-route-id="@Model.Id">Close Travel</a>
+    <a class="btn btn-info" asp-action="Index">Voltar</a>
+</div>
+<partial name="_DriverDetails" />
+<partial name="_BusDetails" />
+<partial name="_LineRouteDetails" />

@@ -1,0 +1,73 @@
+﻿    @model Moviy.App.ViewModels.DriverViewModel
+
+@{
+    ViewData["Title"] = "Novo Motorista";
+}
+
+<h3 style="padding-top: 50px">@ViewData["Title"] </h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        <form enctype="multipart/form-data" asp-action="Create">
+
+            <vc:Summary></vc:Summary>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="ImageUpload" class="control-label"></label>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="ImageUpload" asp-for="ImageUpload">
+                    <label data-browse="Search" style="width: 400px" class="custom-file-label" for="ImageUpload"></label>
+                    <label style="display: none" id="img_nome"></label>
+                </div>
+                <span asp-validation-for="ImageUpload" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="DriverLicense" class="control-label"></label><br />
+                <input asp-for="DriverLicense" class="form-control" />
+                <span asp-validation-for="DriverLicense" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="Document" class="control-label"></label><br />
+                <input asp-for="Document" class="form-control" />
+                <span asp-validation-for="Document" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="BirthDate" class="control-label"></label><br />
+                <input asp-for="BirthDate" class="form-control" />
+                <span asp-validation-for="BirthDate" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                </label>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a class="btn btn-info" asp-action="Index">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts{
+     <script>
+        $("#ImagemUpload").change(function () {
+            $("#img_nome").text(this.files[0].name);
+            $("#img_nome")[0].style.display = 'block';
+        });
+
+        $("#ImagemUpload").attr("data-val", "true");
+        $("#ImagemUpload").attr("data-val-required", "Preencha o campo Imagem");
+    </script>
+}
